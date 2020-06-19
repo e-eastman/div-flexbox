@@ -103,11 +103,38 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
 }
 
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-top: 80px;
+}
+
+h1 {
+    color: #FF6666;
+    font-size: 2.5em;
+    font-family: 'Lora', serif;
+}
+
+.intro {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+.intro span {
+    font-weight: bold;
+    color: #FF6666;
+}
 .wrapper {
   font-weight: 400;
   display: flex;
@@ -133,7 +160,14 @@ body {
     border-left: #666 solid 1px;
 }
 
+hr {
+    border-top: 2px solid #666;
+}
 
+.social img {
+    height: 1em;
+    padding: 30px 20px 0 0;
+}
 
 
 /* ==========================================================================
